@@ -1,0 +1,25 @@
+{
+  "name": "xinyang-supply-portal-demo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "build:single": "npm run build && node scripts/build-single-html.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "6.0.9",
+    "vite": "8.3.0",
+    "vue": "3.5.42",
+    "vue-router": "5.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "typescript": "7.0.2",
+    "vitest": "5.0.0",
+    "vue-tsc": "3.3.11"
+  }
+}
